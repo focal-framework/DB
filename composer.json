@@ -1,0 +1,20 @@
+{
+    "name": "focal/db",
+    "description": "Database Facade bundled with a query builder and Database Control Interface",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Focal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patryk",
+            "email": "contact@patryknamyslak.pl"
+        }
+    ],
+    "require": {
+        "patryknamyslak/patbase": "^2.2"
+    }
+}
